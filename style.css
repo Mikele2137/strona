@@ -1,0 +1,144 @@
+body {
+    font-family: ArachenBT;
+    background-color: rgb(40, 40, 45);
+    margin:0;
+    padding: 0;
+}
+.strona{
+    margin:0 auto;
+    width: 1440px;
+}
+@font-face{
+    font-family: ArachenBT;
+    src:url(AachenBT.ttf);
+}
+.sekcja1{
+    background-image: url("tlo1.png");
+    height: 852px;
+}
+.logo{
+    width: 96px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: -130px;
+}
+.zdjecie1{
+    width: 407px;
+    height: 543px;
+    margin-left: 221px;
+    margin-top:100px;
+}
+.zapraszamy{
+    float: right;
+    margin-right:197px;
+    margin-top:160px;
+}
+.zapraszamy h2{
+    font-size: 60pt;
+    color: #e58f00;
+}
+.zapraszamy p{
+    margin-top: -25px;
+    color: white;
+    font-size: 20pt;
+}
+.nav1 {
+    width: 40%;
+    margin-left: 5%;
+}
+.nav1 a {
+    float:left;
+    width: 20%;
+    margin-top: 40px;
+}
+.nav2 {
+    width: 45%;
+    float: right;
+    margin-right: -5%;
+}
+.nav2 a {
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+}
+ul a {
+    text-decoration:none;
+    color: white;
+}
+ul {
+    list-style-type:none;
+}
+.sekcja2{
+    background-color: #1d1d23;
+}
+.autor{
+    margin-top: 120px;
+    margin-left:120px;
+}
+.oautorze{
+    color:white;    
+    display: block;
+    margin-top: 100px;
+    float: right;
+    margin-right: 150px;
+
+}
+.oautorze h2{
+    font-size:55px;
+}
+.oautorze p{
+    font-size: 35px;
+}
+.onas{
+    color: white;
+    font-size: 35px;
+    margin-left:206px;
+    padding-top: 560px;
+    display: block;
+    float: left;
+}
+.onas h2{
+    font-size:55px;
+    margin-top: 0px;
+}
+.sekcja3{
+    background-color: #1d1d23;
+    margin-top: 0px;
+}
+.onas1{
+    float: right;
+    width:588px;
+    height:881px;
+    display: flex;
+    margin-top:300px;
+}
+.onas2{
+    float: left;
+    width:832px;
+    height:534px;
+    display: flex;
+    margin-top:10px;
+}
+.onas3{
+    display: flex;
+    margin: auto;
+}
+.sekcja4{
+    background-image: url("paei2.png");
+    background-size: 1440px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.siemanko {
+    position: relative;
+    background-color:  rgb(29, 29, 35,0.8);
+    color: white;
+    border: #e58f00 10px solid;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    height: 95%;
+    font-size: 50px;
+}
