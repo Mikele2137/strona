@@ -7,22 +7,16 @@ body {
 .strona{
     margin:0 auto;
     width: 1440px;
+    -webkit-box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.28); 
+    box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.28);
 }
 @font-face{
-    font-family: ArachenBT;
     src:url(AachenBT.ttf);
+    font-family: ArachenBT;
 }
 .sekcja1{
     background-image: url("tlo1.png");
     height: 852px;
-}
-.logo{
-    width: 96px;
-    height: 96px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: -130px;
 }
 .zdjecie1{
     width: 407px;
@@ -44,28 +38,33 @@ body {
     color: white;
     font-size: 20pt;
 }
-.nav1 {
-    width: 40%;
-    margin-left: 5%;
+.logo{
+    width: 94px;
+    height: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: -130px;
 }
-.nav1 a {
-    float:left;
-    width: 20%;
-    margin-top: 40px;
+nav ul li a:hover{
+    text-shadow: -1px 0 #e58f00, 0 1px #e58f00, 1px 0 #e58f00, 0 -1px #e58f00;
 }
-.nav2 {
-    width: 45%;
-    float: right;
-    margin-right: -5%;
-}
-.nav2 a {
+.nav1{
+    display: flex;
     float: left;
-    width: 30%;
-    margin-top: 40px;
+    margin-top: 45px;
+}
+.nav2{
+    display: flex;
+    float: right;
+    margin-top: 45px;
+    margin-right: 10%;
 }
 ul a {
     text-decoration:none;
     color: white;
+    font-size: 15px;
+    padding: 30px;
 }
 ul {
     list-style-type:none;
@@ -76,60 +75,68 @@ ul {
 .autor{
     margin-top: 120px;
     margin-left:120px;
+    width: 640px;
+    height: 640px;
 }
 .oautorze{
     color:white;    
     display: block;
-    margin-top: 100px;
+    margin-top: 190px;
     float: right;
     margin-right: 150px;
-
 }
 .oautorze h2{
-    font-size:55px;
+    font-size:45px;
+    margin-bottom: -10px;
 }
 .oautorze p{
-    font-size: 35px;
+    font-size: 32px;
+}
+.active{
+    color: #e58f00;
 }
 .onas{
     color: white;
     font-size: 35px;
-    margin-left:206px;
-    padding-top: 560px;
-    display: block;
+    margin-left: 200px;
     float: left;
 }
 .onas h2{
     font-size:55px;
-    margin-top: 0px;
+    margin-top: 580px;
+    margin-bottom: 0px;
 }
 .sekcja3{
     background-color: #1d1d23;
     margin-top: 0px;
 }
 .onas1{
-    float: right;
+    float: left;
     width:588px;
     height:881px;
-    display: flex;
-    margin-top:300px;
+    margin-top: 277px;
+    margin-left: 120px;
 }
 .onas2{
     float: left;
     width:832px;
     height:534px;
-    display: flex;
-    margin-top:10px;
+    margin-top: -200px;
 }
 .onas3{
-    display: flex;
-    margin: auto;
+    width:779px;
+    height:488px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 60px;
 }
 .sekcja4{
     background-image: url("paei2.png");
-    background-size: 1440px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    background-size:100%;
+    height: 845px;
+    padding-top: 100px;
 }
 .siemanko {
     position: relative;
@@ -139,6 +146,129 @@ ul {
     text-align: center;
     width: 65%;
     margin: auto;
-    height: 95%;
+    font-size: 40px;
+    height: 730px;
+}
+.siemanko h2{
+    font-size: 90px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+.sekcja5{
+    background-color: #1d1d23;
+    margin-top: 0;
+}
+.h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    padding-top: 180px;
+}
+.galeria{
+    display: flex;
+    padding-top: 90px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 195px;
+}
+.opis h4{
+    color: #e58f00;
+    font-size: 28px;
+}
+.opis a{
+    padding: 0px;
+}
+.opis p{
+    color: white;
+    margin-top: -20px;
+}
+.opis h5{
+    color: #e58f00;
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.galeria .zdj{
+    padding-right: 40px;
+}
+.sekcja6{
+    background-color: #e58f00;
+    height: 504px;
+}
+.sekcja6 div img{
+    padding-left: 190px;
+}
+.sekcja6 div div{
+    color: white;
+    float: right;
+    margin-top: 120px;
+    margin-right: 200px;
+}
+.sekcja6 div div h2{
     font-size: 50px;
+    margin:0px;
+}
+.sekcja6 div div p{
+    font-size: 35px;
+}
+footer{
+    background-color: #35353b;
+}
+footer img{
+    height:50px;
+}
+footer h3{
+    font-size:30px;
+    color: white;
+    margin: 7px;
+    margin-left: 20px;
+}
+.stopka{
+    justify-content: center;
+    padding-top: 95px;
+}
+footer div a{
+    float: left;
+}
+footer div{
+    display: flex;
+}
+.lista ul li a{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #e7e6e6;
+    margin-top: 75px;
+    padding: 0px;
+}
+.lista ul li{
+    float: left;
+    padding-right: 50px;
+}
+.lista ul{
+    padding: 0px;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+}
+.sm{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.sm li{
+    float: left;
+    padding: 25px;
+}
+.sm li a{
+    margin: 0;
+    padding: 0;
+}
+.sm ul{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1440px) {
+    
 }
