@@ -269,6 +269,8 @@ footer div{
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 1440px) {
-    
+@media screen and (max-width: 420px) {
+    .sekcja2{
+        background-color: red;
+    }
 }
